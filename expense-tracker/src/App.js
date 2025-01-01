@@ -1,9 +1,20 @@
 import React from "react";
+import { Header } from "./components/Header";
+import { Balance } from "./components/Balance";
+import { IncomeExpenses } from "./components/IncomeExpenses";
+import { TransactionList } from "./components/TransactionList";
 
 function App() {
   return (
-    <div className="w-screen h-screen bg-blue-500 flex justify-center items-center">
-      <p className="font-serif font-extrabold text-2xl text-red-600 text-transform:uppercase">Expense tracker</p>
+    <div className="h-screen w-screen bg-[#f7f7f7]">
+      <div className="flex items-center pl-32 pt-20 w-4/12 mx-auto">
+        <div className="flex flex-col gap-5">
+          <Header/>
+          <Balance/>
+          <IncomeExpenses/>
+          <TransactionList/>
+        </div>
+      </div>
     </div>
   );
 }

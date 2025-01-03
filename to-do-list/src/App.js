@@ -1,8 +1,9 @@
+import Home from "./pages/Home";
 
 function App() {
   return (
-    <div className='h-screen flex justify-center items-center bg-blue-500'>
-      <p className="text-red-700 font-extrabold text-2xl font-serif">To Do List using Context Api and Redux</p>
+    <div className='h-screen flex justify-center items-center bg-gradient-to-b from-blue-light to-blue-dark'>
+      <Home/>
     </div>
   );
 }

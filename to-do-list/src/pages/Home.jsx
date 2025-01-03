@@ -61,8 +61,8 @@ const Home = () => {
                 <th className="p-4">When</th>
                 <th className="p-4">Priority</th>
                 <th className="p-4">Fulfillment</th>
-                <th className="p-4 text-center">Edit</th>
-                <th className="p-4 text-center">Delete</th>
+                <th className="p-4 text-center"></th>
+                <th className="p-4 text-center"></th>
               </tr>
             </thead>
             <tbody>
